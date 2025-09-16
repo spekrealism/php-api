@@ -1,0 +1,13 @@
+{
+  "name": "null/php-api",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^11.3"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
+
+

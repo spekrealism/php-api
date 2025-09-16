@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+  <testsuites>
+    <testsuite name="Project Test Suite">
+      <directory suffix="Test.php">tests</directory>
+    </testsuite>
+  </testsuites>
+  <php>
+    <env name="API_HOST" value="127.0.0.1"/>
+    <env name="API_PORT" value="8020"/>
+  </php>
+</phpunit>
+
+
