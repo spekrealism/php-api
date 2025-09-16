@@ -31,8 +31,6 @@ final class Http
 
     /**
      * Send JSON response and exit.
-     *
-     * Code comments in english
      */
     public static function sendJson(mixed $data, int $status = 200, array $extraHeaders = []): void
     {
