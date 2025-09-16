@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToDo — Мини REST</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Задачи</h1>
+
+      <form id="create-form" aria-label="Добавить задачу">
+        <label for="new-title" class="visually-hidden">Название задачи</label>
+        <input id="new-title" name="title" type="text" maxlength="200" placeholder="Новая задача" required>
+        <button id="add-btn" type="submit">Добавить</button>
+      </form>
+
+      <div id="messages" role="status" aria-live="polite"></div>
+
+      <ul id="tasks" class="task-list" aria-busy="true" aria-label="Список задач"></ul>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+  </html>
+
+
